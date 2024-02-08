@@ -1,0 +1,49 @@
+.model {
+    &__container {
+        padding-top: 32px;
+        row-gap: 40px;
+    }
+
+    &__content {
+        position: relative;
+        justify-self: center;
+    }
+
+    &__img {
+        width: 280px;
+    }
+
+    &__tooltip {
+        position: absolute;
+
+        &-text {
+            background: var(--gradient-color);
+            padding: 6px 12px;
+            border-radius: 64px;
+            color: white;
+            font-size: var(--smal-font-size);
+            font-weight: var(--font-medium);
+            position: absolute;
+            transform: translate(60px, -50px);
+            white-space: nowrap;
+        }
+
+        &-1 {
+            top: 95px;
+            left: 60px;
+        }
+        &-2{
+            top: 16px;
+            right: 24px;
+        }
+        &-3{
+            bottom: 40px;
+            left: 55px;
+        }
+        &-4 {
+            bottom: 105px;
+            right: 35px;
+
+        }
+    }
+}
